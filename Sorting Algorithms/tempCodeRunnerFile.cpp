@@ -1,0 +1,1 @@
+    mergeSort(myArr, 0, 4);

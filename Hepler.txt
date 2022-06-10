@@ -1,0 +1,30 @@
+// C++ syntax I often forget 😕
+
+// ---STRINGS---
+string s;
+s.substr(pos, pos + length) // Note: [);
+
+
+// ---SET---
+
+// Program to find if an element is present in a set
+
+method-1:
+
+if (s.find(key) != s.end())
+{
+    std::cout << "Element is present in the set" << std::endl;
+}
+else
+{
+    std::cout << "Element not found" << std::endl;
+}
+
+method 2:
+
+use s.count(key)
+ if the count is zero ...key is not present
+
+// Remove an element from Set
+
+s.erase(Key);
